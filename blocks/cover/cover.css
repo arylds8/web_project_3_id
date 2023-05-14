@@ -1,0 +1,15 @@
+.cover{
+    background: linear-gradient(rgb(0 0 0 / 0%), rgb(0 0 0 / 50%)),url(../../images/__background.png);
+    background-size: cover;
+    height: 740px;
+    width: 1184px;
+    margin: auto;
+    z-index: 0;
+    display: flex;
+}
+
+.cover:hover{
+    background: linear-gradient(rgb(0 0 0 / 50%), rgb(0 0 0 / 50%)),url(../../images/__background.png);
+}
+
+

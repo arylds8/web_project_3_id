@@ -1,0 +1,3 @@
+.cover__overlay#hover{
+    background: linear-gradient(rgb(0 0 0 / 50%), rgb(0 0 0 / 50%)),url(../../../images/__background.png);
+}

@@ -1,0 +1,26 @@
+@import url(../cover/cover.css);
+@import url(../../index.html);
+.button-link{
+	background-color:#0278FE;
+	border:1px solid #0b0e07;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:'Inter', sans-serif;
+	font-size:15px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #263666;
+	height: 48px;
+	width: 248px;
+	border-radius: 4px;
+	padding: 13px 20px 13px 20px;
+}
+
+.button-link:hover{
+	background: #0063D2;
+}
+
+.button-link:active {
+	position:relative;
+	top:1px;
+}
