@@ -1,5 +1,11 @@
 .intro{
-    width: 785px;
-    margin: 92px 347px 118px 148px;
     text-align: left;
+    max-width: 50%;
 }
+
+@media only screen and (max-width: 768px) { 
+    /* For tablets and phones: */
+    .intro{
+        max-width: 100%;
+    }
+  }

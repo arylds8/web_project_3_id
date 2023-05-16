@@ -1,6 +1,19 @@
 .lead__image{
-    height: 615px;
-    width: 984px;
+    width: 100%;
     margin: auto;
     filter: grayscale(100%);
+    display: flex;
+    align-self: center;
 }
+
+@media only screen and (max-width: 768px) { 
+    /* For tablets and phones: */
+    .lead__image{
+        width: 100%;
+        margin: auto;
+        filter: grayscale(100%);
+        display: flex;
+        align-self: center;
+    }
+  }
+
