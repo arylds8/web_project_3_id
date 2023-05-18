@@ -10,10 +10,15 @@
     /* For tablets and phones: */
     .lead__image{
         width: 100%;
-        margin: auto;
         filter: grayscale(100%);
         display: flex;
         align-self: center;
     }
   }
 
+  @media only screen and (max-width: 320px) { 
+    /* For tablets and phones: */
+    .lead__image{
+        margin-bottom: 64px;
+    }
+  }

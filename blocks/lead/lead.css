@@ -2,3 +2,10 @@
     min-height: 60vh;
     margin: auto;
 }
+
+@media only screen and (max-width: 320px) { 
+    /* For mobile phones: */
+    .lead{
+        min-height: auto;
+    }
+  }

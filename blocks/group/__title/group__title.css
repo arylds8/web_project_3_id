@@ -6,3 +6,13 @@
     text-align: center;
     margin: 0 auto;
 }
+
+
+@media only screen and (max-width: 320px) { 
+    /* For mobile: */
+    .group__title{
+        font-size: 32px;
+        line-height: 35px;
+        padding-top: 16px;
+    }
+  }

@@ -5,3 +5,12 @@
     margin: auto;
     text-align: center;
 }
+
+
+@media only screen and (max-width: 320px) { 
+    /* For mobile: */
+    .group{
+        width: 288px;
+        height: 163px;
+    }
+  }

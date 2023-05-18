@@ -7,3 +7,12 @@
     line-height: 36px;
     text-align: center;
 }
+
+@media only screen and (max-width: 320px) { 
+    /* For mobile phones: */
+    .lead__subtitle{
+        font-size: 16px;
+        line-height: 20px;
+        margin: 16px auto 40px;
+    }
+  }

@@ -1,8 +1,19 @@
 .place{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 2fr 1fr;
-    width: 984px;
-    height: 756px;
+    grid-template-rows: auto auto auto;
+    max-width: 984px;
     margin-bottom: 80px;
 }
+
+
+
+  @media only screen and (max-width: 320px) { 
+    /* For mobile: */
+    .place{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+  }

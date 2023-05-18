@@ -1,3 +1,10 @@
 .heading{
     margin-bottom: 91px;
 }
+
+@media only screen and (max-width: 320px) { 
+    /* For mobile phones: */
+    .heading{
+        margin-bottom: 50px;
+    }
+  }

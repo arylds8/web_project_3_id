@@ -1,8 +1,16 @@
 .intro__title{
-    width: 785px;
+    max-width: 785px;
     font-family: 'Inter', sans-serif;
     font-size: 54px;
     font-weight: bold;
     line-height: 58px;
     text-align: left;
 }
+
+@media only screen and (max-width: 320px) { 
+    /* For mobile phones: */
+    .intro__title{
+        font-size: 32px;
+        line-height: 35px;
+    }
+  }

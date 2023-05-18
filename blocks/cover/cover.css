@@ -2,7 +2,7 @@
     background: linear-gradient(rgb(0 0 0 / 0%), rgb(0 0 0 / 50%)),url(../../images/__background.png);
     background-size: cover;
     height: 740px;
-    width: 1184px;
+    width: 100%;
     margin: auto;
     z-index: 0;
     display: flex;
@@ -10,6 +10,14 @@
 
 .cover:hover{
     background: linear-gradient(rgb(0 0 0 / 50%), rgb(0 0 0 / 50%)),url(../../images/__background.png);
+    background-size: cover;
+    height: 740px;
+    width: 100%;
 }
 
-
+@media only screen and (max-width: 320px){
+    .cover {
+        height: 254px;
+        width: 320px;
+    }
+}

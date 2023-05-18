@@ -1,3 +1,7 @@
-.group__button:hover + #cov{
-    /* background: linear-gradient(rgb(0 0 0 / 50%), rgb(0 0 0 / 50%)),url(../../../images/__background.png); */
-}
+@media only screen and (max-width: 320px) { 
+    /* For mobile: */
+    .group__button{
+        width: 137px;
+        height: 48px;
+    }
+  }
