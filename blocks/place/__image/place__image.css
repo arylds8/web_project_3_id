@@ -12,6 +12,7 @@
     .place__image {
         height: 340px;
         width: 340px;
+        margin: 46px 0 48px;
     }
 }
 
@@ -19,6 +20,6 @@
     .place__image {
         height: 320px;
         width: 320px;
-        margin: 0;
+        margin: 30px 0;
     }
 }
